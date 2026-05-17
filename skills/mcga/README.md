@@ -1,4 +1,7 @@
 # MCGA — Make Commits Great Again
+<p align="center">
+  <img src="assets/image.png" alt="UiAutomationGRPC" width="320" />
+</p>
 
 > **Nobody writes commits better than us. Nobody.**
 
@@ -29,10 +32,9 @@ MCGA transforms your boring, failing commit messages into **HIGH-ENERGY**, **TRE
 
 ### PR Comment
 
-**Input:** PR fixes a race condition in the payment processor
-
-**Output:**
-> We had a RACE CONDITION. A disaster. Payments were failing — maybe the worst failures in the history of this company. Many people called me. I said "don't worry." And we fixed it COMPLETELY. Sloppy Chris left that in there for TWO YEARS. Two years! Disgraceful. Not anymore. **APPROVED!**
+| Before | After |
+|--------|-------|
+| `PR fixes a race condition in the payment processor` |  `We had a RACE CONDITION. A disaster. Payments were failing — maybe the worst failures in the history of this company. Many people called me. I said "don't worry." And we fixed it COMPLETELY. Sloppy Chris left that in there for TWO YEARS. Two years! Disgraceful. Not anymore. APPROVED!` |
 
 ---
 
@@ -40,9 +42,9 @@ MCGA transforms your boring, failing commit messages into **HIGH-ENERGY**, **TRE
 
 Just ask Claude:
 
-- *"Write this commit in hype style: fix: null pointer in auth"*
+- *"Write this commit: fix: null pointer in auth"*
 - *"Big energy commit: refactor payment module"*
-- *"Write a PR comment in hype style"* (then paste the diff)
+- *"Write a PR comment"* (then paste the diff)
 
 ---
 
